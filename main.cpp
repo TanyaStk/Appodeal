@@ -5,7 +5,7 @@
 #include <sstream>
 
 int main() {
-    std::string fname = R"(C:\Users\tasik\CLionProjects\Appodeal\AppodealStack.csv)";
+    std::string fname = R"(Appodeal\AppodealStack.csv)";
     std::fstream file(fname, std::ios::in);
     std::string line, word;
     int total_cost{0};
